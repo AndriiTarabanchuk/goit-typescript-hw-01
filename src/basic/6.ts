@@ -23,3 +23,5 @@ const poly: User = {
   age: 30,
   email: "john@example.com",
 };
+
+export { poly, mango };

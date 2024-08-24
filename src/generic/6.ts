@@ -13,11 +13,13 @@ type Form = {
   errors: Errors;
 };
 
-type BasicForm = Pick<Form, "email" | "firstName" | "lastName" | "phone">;
+type Params = Pick<
+  Omit<Form, "errors">,
+  "email" | "firstName" | "lastName" | "phone"
+>;
 
 // Реалізуйте Params так,
 // щоб унеможливити поле 'errors' з типу Form
-type Params = BasicForm;
 
 const value: Params = {
   email: "string | null",
@@ -26,4 +28,4 @@ const value: Params = {
   phone: " string | null",
 };
 
-console.log("value6", value);
+export default value;

@@ -13,3 +13,5 @@ function getRoleDescription(role: UserRole): string {
 
   return descriptions[role];
 }
+
+export default getRoleDescription;

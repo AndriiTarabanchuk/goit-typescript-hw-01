@@ -5,3 +5,5 @@ const empty: null = null;
 const callback = (a: number): number => {
   return 100 + a;
 };
+
+export { username, toggle, empty, age, callback };

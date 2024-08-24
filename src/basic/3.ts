@@ -7,3 +7,5 @@ enum CheckStatus {
   Disable = "disable",
 }
 let status: CheckStatus = CheckStatus.Enable;
+
+export { status };
