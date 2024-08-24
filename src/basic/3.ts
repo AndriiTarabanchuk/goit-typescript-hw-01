@@ -8,4 +8,4 @@ enum CheckStatus {
 }
 let status: CheckStatus = CheckStatus.Enable;
 
-export { status };
+export { status, firstValue };
