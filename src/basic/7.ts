@@ -27,5 +27,4 @@ const page2: UserData = {
   status: "close",
 };
 
-console.log("page1", page1);
-console.log("page2", page2);
+export { page1, page2 };
