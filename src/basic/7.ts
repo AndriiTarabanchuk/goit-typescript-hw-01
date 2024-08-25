@@ -4,8 +4,8 @@ type UserData = {
   accounts: string[];
   status: string;
   details?: {
-    createAt: {};
-    updateAt: {};
+    createAt: Date;
+    updateAt: Date;
   };
 };
 
